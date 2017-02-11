@@ -42,16 +42,18 @@
             </md-toolbar>
 
             <div layout="column">
-                <md-content class="md-padding" id="grad1">
-                    <img ng-src="img/pb.png">
-
+                <md-content class="md-padding height-1-3" id="grad1">
+                    <div layout="row">
+                        <img ng-src="img/pb-t.png" class="img-fill">
+                        <img ng-src="img/pb.png" class="img-fill">
+                    </div>
                 </md-content>
                 <md-content class="md-padding">
                     <md-nav-bar
                         md-selected-nav-item="currentNavItem"
                         nav-bar-aria-label="navigation links">
                         <md-nav-item md-nav-click="goto('page1')" name="page1">
-                            Page One
+                            מועדונים בסביבה
                         </md-nav-item>
                         <md-nav-item md-nav-click="goto('page2')" name="page2">
                             Page Two
