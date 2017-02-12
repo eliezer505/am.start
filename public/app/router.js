@@ -18,6 +18,23 @@ var club = angular.module("app")
 //              function($scope) {
 //        $scope.items = ["A", "List", "Of", "Items"];
 //      }
-    });
+    })
+       .state('main.history', {
+      url: "/history",
+      templateUrl: "app/pages/main.history.html"
+//      controller: mainClubesCtrl
+//              function($scope) {
+//        $scope.items = ["A", "List", "Of", "Items"];
+//      }
+    })
+       .state('main.favorites', {
+      url: "/favorites",
+      templateUrl: "app/pages/main.favorites.html"
+//      controller: mainClubesCtrl
+//              function($scope) {
+//        $scope.items = ["A", "List", "Of", "Items"];
+//      }
+   });
+    
 
 });
