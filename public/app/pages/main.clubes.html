@@ -1,0 +1,19 @@
+
+<div ng-controller="mainClubesCtrl">
+    <md-card md-theme="{{ showDarkTheme ? 'dark-purple' : 'default' }}" md-theme-watch ng-repeat="club in clubes">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">Card with image</span>
+                <span class="md-subhead">Small</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm card-media"></div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="end center">
+            <md-button><i class="material-icons">&#xE56A;</i></md-button>  <!-- enter to club -->
+            <md-button><i class="material-icons">&#xE866;</i></md-button>  <!-- add to favorites -->
+        </md-card-actions>
+    </md-card> 
+</div>
+
