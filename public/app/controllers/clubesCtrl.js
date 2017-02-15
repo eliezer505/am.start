@@ -2,8 +2,10 @@ angular
         .module('app')
 
      
-        .controller('clubesCtrl', function ($scope,$stateParams) {
+        .controller('clubesCtrl', function ($state, $scope, $stateParams) {
           
-           console.log($stateParams);
+          
+         
+                      
         });
   

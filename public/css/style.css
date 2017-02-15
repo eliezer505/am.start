@@ -40,5 +40,7 @@ h1 {
         height: 100%;
         margin: 0 auto;
     }
-    
+    .rtl{
+    	text-align: right!important;
+    }
    

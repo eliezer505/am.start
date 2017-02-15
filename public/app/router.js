@@ -37,7 +37,10 @@ var club = angular.module("app")
                     })
                     .state('club', {
                         url: "/club",
-                        templateUrl: "app/pages/club.html"
+                        templateUrl: "app/pages/club.html",
+                         params: {
+        obj: null
+    }
                     });
 
 
