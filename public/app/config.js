@@ -1,10 +1,8 @@
 (function() {
 
-	var club = angular.module("app", ['ngMaterial', 'ui.router']);
+	var club = angular.module("app", ['ngMaterial', 'ui.router','wu.masonry']);
 
-club.config(function($mdBiDirectionalProvider) {
- $mdBiDirectionalProvider.rtlMode(true);
- });
+
 
 })();
 
